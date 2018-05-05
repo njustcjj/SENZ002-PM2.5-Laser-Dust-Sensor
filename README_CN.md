@@ -1,48 +1,51 @@
-# SENZ002-PM2.5-Laser-Dust-Sensor
+# SENZ002 PM2.5激光粉尘传感器
 
-###### Translation
+###### 翻译
 
-> For `English`, please click [`here.`](https://github.com/njustcjj/SENZ002-PM2.5-Laser-Dust-Sensor/blob/master/README.md)
+> `英文`请参考 [`这里`](https://github.com/njustcjj/SENZ002-PM2.5-Laser-Dust-Sensor/blob/master/README.md).
 
-> For `Chinese`, please click [`here.`](https://github.com/njustcjj/SENZ002-PM2.5-Laser-Dust-Sensor/blob/master/README_CN.md)
+> `中文`请参考 [`这里`](https://github.com/njustcjj/SENZ002-PM2.5-Laser-Dust-Sensor/blob/master/README_CN.md).
 
 ![](https://github.com/njustcjj/SENZ002-PM2.5-Laser-Dust-Sensor/blob/master/pic/SENZ002.jpg "SENZ002") 
+ 
 
-### Introduction
+### 产品介绍
 
-> PM2.5 laser dust sensor is a digital universal particle concentration sensor，it can be used to obtain the number of suspended particulate matter in a unit volume of air within 0.3 to 10 microns, namely the concentration of particulate matter, and output with digital interface, also can output quality data of per particle. 
-> The Air Quality sensors can be embedded in a variety of concentrations of environment-related instruments suspended particulate matter in the air,to provide timely and accurate concentration data.
+> PM2.5激光粉尘传感器是一款数字式通用颗粒物浓度传感器，可以用于获得单位体积内空气中0.3～10微米悬浮颗粒物个数，即颗粒物浓度，并以数字接口形式输出，同时也可输出每种粒子的质量数据。
 
-### Specification
+> 
+> 用途：嵌入各种与空气中悬浮颗粒物浓度相关的仪器仪表或环境改善设备，为其提供及时准确的浓度数据。
 
-* Operating voltage :4.95 ~ 5.05V
-- Maximum electric current: 120mA
-- Measuring pm diameter: 0.3~1.0、1.0~2.5、2.5~10（um）
-- Measuring pm range：0~500 ug/m3
-- Standby current: ≤200 uA
-- Response time: ≤10 s
-- Operating temperature range:: -20 ~ 50C
-- Operating humidity range: 0 ~ 99% RH
-- Maximum size: 65 × 42 × 23 (mm)
-- MTBF: >= 5 years
+### 产品参数
 
-#### Feature
+* 工作电压 : 4.95 ~ 5.05V
+* 最大工作电流 : 120mA
+* 测量范围  : 0.3~1.0、1.0~2.5、2.5~10微米（um）
+- 量程  :0~500 ug/m<sup>3</sup>
++ 待机电流  : ≤200 微安（uA）
++ 响应时间  : ≤10 s
+- 工作温度范围 : -20 ~ 50摄氏度
+- 工作湿度范围 : 0~99% RH
+- 最大尺寸  : 65×42×23（mm）
+- 平均无故障时间 : >=5年
 
-* Quick response
-* Standard serial input word output
-* Second-order multi-point calibration curve
-* The minimum size of 0.3 micron resolution
+#### 主要特性：
 
-#### Power supply quality requirements:
+- 响应迅速
+- 标准串口输字输出
+- 二阶曲线多点校准
+- 最小分辨粒径0.3微米
 
-- Voltage ripple: less than 100mV.
-- The power supply voltage stability: 4.95 ~ 5.05V.
-- Power supply: more than 1W (5V@200mA).
-- The upper and lower electric voltage surge is less than 50% of the system power supply voltage.
+#### 供电电源质量要求：
 
-### Tutorial
+1. 纹波小于100mV;
+2. 电源电压稳定度：4.95～5.05V;
+3. 电源功率：大于1W (电流大于200mA);
+4. 上下电电压冲击小于系统电源电压的50%。
 
-#### Pin Definition
+### 使用教程
+
+#### 引脚定义
 
 |Sensor Pin|Ardunio Pin|Function Description|
 |-|:-:|-|
@@ -53,14 +56,15 @@
 |Vo|Analog pin|Output|
 |Vcc|5V||
 
-![](https://github.com/njustcjj/SENZ002-PM2.5-Laser-Dust-Sensor/blob/master/pic/SENZ002_pin.jpg "Pin Definition") 
+![](https://github.com/njustcjj/SENZ002-PM2.5-Laser-Dust-Sensor/blob/master/pic/SENZ002_pin.jpg "引脚定义") 
 
-#### Connecting Diagram
 
-![](https://github.com/njustcjj/SENZ002-PM2.5-Laser-Dust-Sensor/blob/master/pic/SENZ002_connect.png "Connecting Diagram") 
+#### 连线图
 
-#### Sample Code
+![](https://github.com/njustcjj/SENZ002-PM2.5-Laser-Dust-Sensor/blob/master/pic/SENZ002_connect.png "连线图") 
 
+
+### 示例代码
 
 	/*
 	Arduino Uno (ATMEGA328) Port Allocations:
@@ -177,7 +181,7 @@
 	}
 
 
-### 购买[*SENZ002-PM2.5-Laser-Dust-Sensor*](https://www.ebay.com/).
+### 购买[*SENZ002 PM2.5激光粉尘传感器*](https://www.ebay.com/).
 
 
 
